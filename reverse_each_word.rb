@@ -1,6 +1,6 @@
 def reverse_each_word(words)
   words.reverse.split.reverse.join(" ") do |reverse|
-    puts words.reverse.collect
+    words.reverse.collect
   end
 end
 
