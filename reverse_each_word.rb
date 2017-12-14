@@ -1,6 +1,12 @@
+# def reverse_each_word(words)
+#   words.reverse.split.reverse.join(" ") do |reverse|
+#     puts words.collect
+#   end
+# end
+
 def reverse_each_word(words)
-  words.reverse.split.reverse.join(" ") do |reverse|
-    puts words.collect
+  words.split.collect do |reverse|
+    return words.reverse.split.reverse.join(" ")
   end
 end
 
