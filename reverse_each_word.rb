@@ -1,7 +1,8 @@
 def reverse_each_word(words)
-  words.each do |reverse|
+  words.reverse do |reverse|
     puts words.reverse
   end
+endend
 end
 
 
