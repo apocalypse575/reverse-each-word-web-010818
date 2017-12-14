@@ -1,6 +1,6 @@
 def reverse_each_word(words)
   words.each do |reverse|
-    return words.reverse
+    puts words.reverse
   end
 end
 
